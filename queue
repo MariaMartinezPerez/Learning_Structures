@@ -10,4 +10,4 @@ queue.append(3) // queue = [1,2,3]
 
 #Remove elemens from the queue (first element added --> popleft()
 
-x=queue.popleft()
+x=queue.popleft() //queue = [2,3] x= 1
