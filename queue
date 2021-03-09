@@ -1,0 +1,13 @@
+'''
+Queue is a structure type FIFO (First In First Out) 
+'''
+
+queue = deque()
+#Add elements to the queue
+queue.append(1) // queue=[1]
+queue.append(2) // queue = [1,2]
+queue.append(3) // queue = [1,2,3]
+
+#Remove elemens from the queue (first element added --> popleft()
+
+x=queue.popleft()
