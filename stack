@@ -7,8 +7,8 @@ stack = []
 
 #Add elements to the stack
 stack.append(1) // stack = [1]
-stack.append(2) // stack = [1,2]
-stack.append(3) // stack = [1,2,3]
+stack.append(2) // stack = [2,1]
+stack.append(3) // stack = [3,2,1]
 
 #Remove & retrieve the top element from the stack
 x = stack.pop() // x = 3 stack = [1,2]
